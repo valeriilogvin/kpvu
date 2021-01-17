@@ -1,0 +1,50 @@
+.section1{
+  position: relative;
+  color: #ffffff;
+  .row{
+    padding: 0 50px;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    text-transform: uppercase;
+  }
+
+  .text{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+  }
+
+  .form-block{
+    text-align: center;
+    width: 370px;
+    padding: 20px 35px 40px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+
+    .title{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 160%;
+      color: #272727;
+    }
+
+    form{
+      input{
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
